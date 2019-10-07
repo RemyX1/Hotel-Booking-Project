@@ -27,13 +27,11 @@ public class HotelController {
     @ResponseStatus(HttpStatus.CREATED)
     public RoomViewModel createRoomViewModel(@PathVariable int roomId,
                                              @RequestParam(required= false, defaultValue = "false") Boolean rewardMember,
-                                             @RequestParam(required= false, defaultValue = "false") Boolean doubleBonusDay)
+                                             @RequestParam(required= false, defaultValue = "false") Boolean doubleBonusDay,)
     {
 
-        service.getViewModelInfo(roomId,rewardMember,doubleBonusDay);
-
-
-        return null;
+        return service.getViewModelInfo(roomId,rewardMember,doubleBonusDay);
+        
     }
 
 
