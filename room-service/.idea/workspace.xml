@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b20c4829-8fd0-4618-b497-f8c7e7b49c9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/model/Rewards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/model/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/model/RoomViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/util/feign/RewardsFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/util/feign/RoomFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hotel-booking-service/src/test/java/com/company/trilogyed/hotelbookingservice/service/ServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rewards-service/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rewards-service/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rewards-service/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/HotelBookingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/HotelBookingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rewards-service/src/main/java/com/trilogyed/rewardsservice/RewardsServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rewards-service/src/main/java/com/trilogyed/rewardsservice/RewardsServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/trilogyed/roomservice/RoomServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/trilogyed/roomservice/RoomServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/controller/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rewards-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rewards-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -81,10 +67,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-40" />
-    <option name="y" value="10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="240" />
+    <option name="y" value="128" />
+    <option name="width" value="1440" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
