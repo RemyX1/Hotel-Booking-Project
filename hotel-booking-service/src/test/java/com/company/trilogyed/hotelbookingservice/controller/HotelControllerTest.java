@@ -16,9 +16,12 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import java.math.BigDecimal;
 
+import static com.sun.deploy.cache.Cache.exists;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest
@@ -28,6 +31,7 @@ public class HotelControllerTest {
     @Autowired
     private MockMvc mockMvc;
     @MockBean
+    @Autowired
     private Service service;
 
     static String asJsonString(final Object obj){
@@ -48,15 +52,15 @@ public class HotelControllerTest {
         when(service.getViewModelInfo(rvm.getRoomNumber(),rvm.isRewardsMember(),rvm.isDoubleBonusday()))
                 .thenReturn(rvm);
         mockMvc.perform(MockMvcRequestBuilders
-                .post("/hotelRewards/{roomId}?rewardsMember=[true|false]&doubleBonusDay=[true|false]")
-                .content(asJsonString( new RoomViewModel(301,"King",true,true,
-                        new BigDecimal("229.00"), .20,300,true, new BigDecimal("183.20"),
-                        600)))
-                .contentType(MediaType.APPLICATION_JSON)
-                .accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isCreated());
-                //.andExpect(MockMvcResultMatchers.jsonPath("$.noteId")
-                  //      .exists());
+                .get("/hotelRewards/" + 301 + "?rewardsMember=true&doubleBonusDay=true"))
+                .andDo(print()).andExpect(status().isFound());
+//                .content(asJsonString( new RoomViewModel(301,"King",true,true,
+//                       new BigDecimal("229.00"), .20,300,true, new BigDecimal("183.20"),
+//                        600)))
+//                .contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
+               // .accept(MediaType.APPLICATION_JSON_UTF8))
+                     //  .andDo(print()).andExpect(status().isOk());
+                //.andExpect(content().json(outputJson));
 
     }
 

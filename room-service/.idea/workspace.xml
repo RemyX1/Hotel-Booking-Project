@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b20c4829-8fd0-4618-b497-f8c7e7b49c9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/controller/HotelController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hotel-booking-service/src/test/java/com/company/trilogyed/hotelbookingservice/controller/HotelControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel-booking-service/src/test/java/com/company/trilogyed/hotelbookingservice/controller/HotelControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rewards-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rewards-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />

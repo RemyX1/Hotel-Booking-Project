@@ -22,12 +22,12 @@ public class HotelController {
 
     //Pretend this looks good.
     //Sorry Barbara.
-    @RequestMapping(value="/hotelRewards/{roomId}?rewardsMember=[true|false]&doubleBonusDay=[true|false]",
-            method = RequestMethod.POST)
-    @ResponseStatus(HttpStatus.CREATED)
+    @RequestMapping(value="/hotelRewards/{roomId}",
+            method = RequestMethod.GET)
+   @ResponseStatus(HttpStatus.FOUND)
     public RoomViewModel createRoomViewModel(@PathVariable int roomId,
-                                             @RequestParam(required= false, defaultValue = "false") Boolean rewardMember,
-                                             @RequestParam(required= false, defaultValue = "false") Boolean doubleBonusDay)
+                                             @RequestParam(required= false, defaultValue = "false",name = "rewardMember") Boolean rewardMember,
+                                             @RequestParam(required= false, defaultValue = "false", name = "doubleBonusDay") Boolean doubleBonusDay)
     {
 
         return service.getViewModelInfo(roomId,rewardMember,doubleBonusDay);
