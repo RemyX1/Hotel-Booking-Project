@@ -52,7 +52,7 @@ public class ServiceTest {
         rewards.setRoomType(rvm.getRoomType());
         rewards.setCanDouble(rvm.isCanDouble());
         rewards.setPoints(rvm.getBaseRewardsPoints());
-        rewards.setDiscount((float) rvm.getMemeberDiscount());
+        rewards.setDiscount(.20f);
 
 
 
@@ -62,8 +62,9 @@ public class ServiceTest {
 
         RoomViewModel actualRVM  = service.getViewModelInfo(room.getNumber(),rvm.isRewardsMember(),rvm.isDoubleBonusday());
 
-        assertEquals(rvm,actualRVM);
+        //assertEquals(rvm,actualRVM);
 
+        assertTrue(rvm.equals(actualRVM));
 
     }
 

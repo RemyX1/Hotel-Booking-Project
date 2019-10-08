@@ -29,6 +29,10 @@ public class Service {
 
         RoomViewModel rmv = new RoomViewModel();
 
+        //set room info
+        rmv.setRoomNumber(roomId);
+        rmv.setRoomType(roomInfo.getRoomType());
+
         if(rewardsMember){
             Rewards rewardInfo = rewardsClient.getRewards(roomInfo.getRoomType());
             System.out.println(rewardInfo); 
