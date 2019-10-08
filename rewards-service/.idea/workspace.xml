@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="793c1c0e-92ff-4a9d-8dee-6d0736d813ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hotel-booking-service/src/test/java/com/company/trilogyed/hotelbookingservice/service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel-booking-service/src/test/java/com/company/trilogyed/hotelbookingservice/service/ServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hotel-booking-service/src/test/java/com/company/trilogyed/hotelbookingservice/controller/HotelControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel-booking-service/src/test/java/com/company/trilogyed/hotelbookingservice/controller/HotelControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../room-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../room-service/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -24,11 +24,11 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/trilogyed/rewardsservice/RewardsServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="187">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
@@ -37,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/trilogyed/rewardsservice/models/Rewards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="255">
               <caret line="21" column="5" selection-start-line="8" selection-end-line="59" />
             </state>
           </provider>
@@ -51,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/trilogyed/rewardsservice/controller/RewardsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="255">
               <caret line="25" column="53" selection-start-line="18" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
@@ -82,8 +82,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,10 +116,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -151,21 +151,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/trilogyed/rewardsservice/RewardsServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="187">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/trilogyed/rewardsservice/models/Rewards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="255">
           <caret line="21" column="5" selection-start-line="8" selection-end-line="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/trilogyed/rewardsservice/controller/RewardsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="255">
           <caret line="25" column="53" selection-start-line="18" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
