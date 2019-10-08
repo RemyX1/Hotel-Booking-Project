@@ -39,7 +39,7 @@ public class ServiceTest {
     public void getViewModelInfo() {
 
         RoomViewModel rvm = new RoomViewModel(301,"King",true,true,
-                new BigDecimal(229.00), .20,300,true, new BigDecimal(183.20),
+                new BigDecimal("229.00"), .20,300,true, new BigDecimal("183.20"),
                 600);
 
         Room room = new Room();
@@ -52,7 +52,7 @@ public class ServiceTest {
         rewards.setRoomType(rvm.getRoomType());
         rewards.setCanDouble(rvm.isCanDouble());
         rewards.setPoints(rvm.getBaseRewardsPoints());
-        rewards.setDiscount(.20f);
+        rewards.setDiscount((float) rvm.getMemeberDiscount());
 
 
 
@@ -64,7 +64,7 @@ public class ServiceTest {
 
         //assertEquals(rvm,actualRVM);
 
-        assertTrue(rvm.equals(actualRVM));
+        assertEquals(rvm.getFinalcost(),actualRVM.getFinalcost());
 
     }
 

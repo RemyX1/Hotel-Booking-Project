@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="793c1c0e-92ff-4a9d-8dee-6d0736d813ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/controller/HotelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel-booking-service/src/main/java/com/company/trilogyed/hotelbookingservice/service/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hotel-booking-service/src/test/java/com/company/trilogyed/hotelbookingservice/service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel-booking-service/src/test/java/com/company/trilogyed/hotelbookingservice/service/ServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../room-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../room-service/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -121,6 +117,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
